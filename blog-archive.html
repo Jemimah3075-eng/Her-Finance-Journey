@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Archive | Her Finance Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="site-branding" href="index.html" aria-label="Her Finance Journey home">
+      <img class="site-logo" src="images/logo-option-b.svg" alt="Her Finance Journey logo">
+      <span class="visually-hidden">Her Finance Journey</span>
+    </a>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="aboutme.html">About Me</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="bloglatest.html">Latest Blog Posts</a></li>
+            <li><a href="blog-archive.html">Blog Archive</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="tips.html">Tips, Tricks And Advice</a>
+          <ul class="dropdown-menu">
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="submit-question.html">Submit A Question</a></li>
+            <li><a href="submit-advice.html">Submit Advice</a></li>
+          </ul>
+        </li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-layout">
+      <section class="page-hero panel">
+        <span class="eyebrow">Archive</span>
+        <h2>Blog Archive</h2>
+        <p>Browse published posts as the blog grows. Right now, the archive contains the Spring Weeks guide.</p>
+      </section>
+
+      <section class="archive-filter-panel panel" aria-labelledby="archive-filter-title">
+        <div class="section-heading">
+          <span class="eyebrow">Browse The Archive</span>
+          <h3 id="archive-filter-title">Find Posts Your Way</h3>
+          <p>Use the filters below to explore articles by when they were published, what they cover, and what readers are enjoying most.</p>
+        </div>
+
+        <form class="archive-filters" data-archive-filters>
+          <label>
+            <span>Date Published</span>
+            <select name="date-published" data-filter-date>
+              <option>Newest First</option>
+              <option>Oldest First</option>
+              <option>This Month</option>
+              <option>This Year</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Topic</span>
+            <select name="topic" data-filter-topic>
+              <option value="all">All Topics</option>
+              <option value="spring-weeks">Spring Weeks</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Most Read</span>
+            <select name="most-read" data-filter-read>
+              <option value="any">Any Popularity</option>
+              <option value="week">Most Read This Week</option>
+              <option value="month">Most Read This Month</option>
+              <option value="overall">Most Read Overall</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Top Rated</span>
+            <select name="top-rated" data-filter-rated>
+              <option value="any">Any Rating</option>
+              <option value="highest">Highest Rated First</option>
+              <option value="4-plus">4 Stars And Above</option>
+              <option value="favourites">Reader Favourites</option>
+            </select>
+          </label>
+        </form>
+      </section>
+
+      <section class="archive-results blog-card-grid" data-archive-results>
+        <article class="blog-card" data-archive-post data-date="2026-04-10" data-topic="spring-weeks" data-reads-week="132" data-reads-month="610" data-reads-overall="610" data-rating="4.8" data-favourite="true">
+          <h3><a href="posts/spring-weeks-guide.html">What Are Spring Weeks?</a></h3>
+          <p>A simple explanation of what spring weeks are, why they matter, and how to start preparing for them.</p>
+          <div class="blog-card-meta">
+            <span>10 April 2026</span>
+            <span>Spring Weeks</span>
+            <span>4.8 stars</span>
+          </div>
+        </article>
+
+        <p class="archive-empty-message" data-archive-empty hidden>No posts match those filters yet. Try a broader topic or reset the filters.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Her Finance Journey</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

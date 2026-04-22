@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community | Her Finance Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="site-branding" href="index.html" aria-label="Her Finance Journey home">
+      <img class="site-logo" src="images/logo-option-b.svg" alt="Her Finance Journey logo">
+      <span class="visually-hidden">Her Finance Journey</span>
+    </a>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="aboutme.html">About Me</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="bloglatest.html">Latest Blog Posts</a></li>
+            <li><a href="blog-archive.html">Blog Archive</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="tips.html">Tips, Tricks And Advice</a>
+          <ul class="dropdown-menu">
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="submit-question.html">Submit A Question</a></li>
+            <li><a href="submit-advice.html">Submit Advice</a></li>
+          </ul>
+        </li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-layout">
+      <div class="page-stack">
+        <section class="page-hero panel">
+          <span class="eyebrow">Community</span>
+          <h2>A Welcoming Place To Share, Learn, And Build Confidence Together.</h2>
+          <p>
+            Her Finance Journey is more than just the blog and newsletter; it is a space for women to feel
+            supported, exchange ideas, and stay encouraged as they work through every stage of their careers and goals.
+          </p>
+        </section>
+
+        <section class="page-cards community-text-cards reveal-on-scroll">
+          <article class="page-card community-text-card">
+            <h3>Support</h3>
+            <p>Ask questions without feeling judged and hear from others who have faced similar challenges.</p>
+          </article>
+          <article class="page-card community-text-card">
+            <h3>Encouragement</h3>
+            <p>Celebrate progress, not perfection, and keep momentum through shared learning.</p>
+          </article>
+          <article class="page-card community-text-card">
+            <h3>Networking</h3>
+            <p>Meet women who want to grow their confidence, careers, and understanding of the industry.</p>
+          </article>
+        </section>
+
+        <section class="section reveal-on-scroll">
+          <article class="info-card community-why-card reveal-on-scroll">
+            <h3>Why This Matters</h3>
+            <p>
+              Personal and professional growth often feels easier when people do not have to figure everything out alone. Her Finance Journey provides a supportive environment where women can connect, share experiences, and grow together.
+            </p>
+          </article>
+        </section>
+
+        <section class="cta-banner community-join-plain reveal-on-scroll">
+          <span class="eyebrow">Join The Community</span>
+          <h3>Connect With Us</h3>
+          <p>
+            If you are interested in networking with other women in finance, join our LinkedIn group or get in touch via email or social media.
+          </p>
+          <div class="button-row">
+            <a href="contact.html" class="button-link">Contact Us</a>
+            <a href="https://www.linkedin.com/groups/18418018/" class="button-link-secondary" target="_blank" rel="noopener noreferrer">Join The LinkedIn Group</a>
+          </div>
+        </section>
+
+        <section class="question-board section reveal-on-scroll" aria-labelledby="question-board-title">
+          <div class="question-board-copy">
+            <span class="eyebrow">Question Board</span>
+            <h3 id="question-board-title">Ask Anonymously And Start A Discussion.</h3>
+            <p>
+              Submit a question, topic idea, or experience you would like to discuss. Questions are
+              reviewed first, then selected questions will be added to this page anonymously.
+            </p>
+          </div>
+
+          <form class="question-board-form" action="mailto:HerFinanceJourney@icloud.com" method="post" enctype="text/plain">
+            <label>
+              <span>Question title</span>
+              <input type="text" name="question-title" placeholder="For example: How do I prepare for a finance interview?" required>
+            </label>
+
+            <label>
+              <span>Topic</span>
+              <select name="topic" required>
+                <option value="">Choose A Topic</option>
+                <option value="Springweeks">Springweeks</option>
+                <option value="Internships">Internships</option>
+                <option value="Applications">Applications</option>
+                <option value="Career Growth">Career Growth</option>
+                <option value="Networking">Networking</option>
+              </select>
+            </label>
+
+            <label class="question-board-full">
+              <span>Your Anonymous Question</span>
+              <textarea name="anonymous-question" rows="5" placeholder="Write your question here. Please do not include personal details you do not want shared." required></textarea>
+            </label>
+
+            <button class="button-link" type="submit">Submit Anonymously</button>
+            <p class="question-board-note">Your email app may open to send this. Your question will not appear publicly until it has been reviewed. We reserve the right to remove any questions that do not align with our community guidelines.</p>
+          </form>
+
+          <div class="question-board-list" aria-label="Example community questions">
+            <article class="question-post">
+              <span>Applications</span>
+              <h4>How do I make my first finance application stand out?</h4>
+              <p>Anonymous question example. Replace this with a real approved question when submissions come in.</p>
+            </article>
+            <article class="question-post">
+              <span>Confidence</span>
+              <h4>What should I do if I feel behind everyone else?</h4>
+              <p>Anonymous question example. This area can become your reviewed discussion board.</p>
+            </article>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Her Finance Journey</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

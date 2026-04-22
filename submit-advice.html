@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Advice | Her Finance Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="site-branding" href="index.html" aria-label="Her Finance Journey home">
+      <img class="site-logo" src="images/logo-option-b.svg" alt="Her Finance Journey logo">
+      <span class="visually-hidden">Her Finance Journey</span>
+    </a>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="aboutme.html">About Me</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="bloglatest.html">Latest Blog Posts</a></li>
+            <li><a href="blog-archive.html">Blog Archive</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="tips.html">Tips, Tricks And Advice</a>
+          <ul class="dropdown-menu">
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="submit-question.html">Submit A Question</a></li>
+            <li><a href="submit-advice.html">Submit Advice</a></li>
+          </ul>
+        </li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-layout">
+      <div class="page-stack">
+        <section class="page-hero panel">
+          <span class="eyebrow">Submit Advice</span>
+          <h2>Share Advice That Could Help Other Women In Finance.</h2>
+          <p>Use this form to contribute practical advice, lessons you have learned, resources you recommend, or encouragement you wish you had heard earlier.</p>
+        </section>
+
+        <section class="question-board section reveal-on-scroll" aria-labelledby="submit-advice-title">
+          <div class="question-board-copy">
+            <span class="eyebrow">Advice Form</span>
+            <h3 id="submit-advice-title">Pass On Something Helpful.</h3>
+            <p>
+              This can be a short tip, a fuller reflection, or something you learned the hard way. Advice can be shared with your name or anonymously.
+            </p>
+          </div>
+
+          <form class="question-board-form" action="mailto:HerFinanceJourney@icloud.com?subject=Her%20Finance%20Journey%20Advice%20Submission" method="post" enctype="text/plain">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Your name or preferred display name">
+            </label>
+
+            <label>
+              <span>Topic</span>
+              <select name="topic" required>
+                <option value="">Choose A Topic</option>
+                <option value="Spring Weeks">Spring Weeks</option>
+                <option value="Internships">Internships</option>
+                <option value="Applications">Applications</option>
+                <option value="Networking">Networking</option>
+                <option value="Confidence">Confidence</option>
+                <option value="Career Growth">Career Growth</option>
+                <option value="University">University</option>
+              </select>
+            </label>
+
+            <label class="question-board-full">
+              <span>Advice title</span>
+              <input type="text" name="advice-title" placeholder="For example: What I wish I knew before application season" required>
+            </label>
+
+            <label class="question-board-full">
+              <span>Your advice</span>
+              <textarea name="advice" rows="7" placeholder="Share your advice, lesson, resource, or reflection here." required></textarea>
+            </label>
+
+            <label>
+              <span>How should this be credited?</span>
+              <select name="credit" required>
+                <option value="">Choose One</option>
+                <option value="Anonymous">Share anonymously</option>
+                <option value="First name only">Use first name only</option>
+                <option value="Full name">Use full name</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Can this be edited for clarity?</span>
+              <select name="editing-permission" required>
+                <option value="">Choose One</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </label>
+
+            <button class="button-link" type="submit">Submit Your Advice</button>
+            <p class="question-board-note">Your email app may open to send the form. Submissions may be lightly edited for clarity and length before being shared.</p>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Her Finance Journey</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
