@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Her Finance Journey logo</title>
+  <desc id="logo-desc">An elegant circular HFJ monogram with a rising finance line and soft rose accents.</desc>
+  <defs>
+    <linearGradient id="roseGradient" x1="36" y1="24" x2="204" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7dce7"/>
+      <stop offset="0.52" stop-color="#b85c7b"/>
+      <stop offset="1" stop-color="#7b2f4b"/>
+    </linearGradient>
+    <linearGradient id="softFill" x1="60" y1="46" x2="190" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff8fb"/>
+      <stop offset="1" stop-color="#fff0f5"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#5b3848" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <circle cx="120" cy="120" r="92" fill="url(#softFill)" filter="url(#softShadow)"/>
+  <circle cx="120" cy="120" r="92" fill="none" stroke="url(#roseGradient)" stroke-width="5"/>
+  <circle cx="120" cy="120" r="76" fill="none" stroke="#e8bccf" stroke-width="1.5" stroke-dasharray="3 8" opacity="0.9"/>
+
+  <path d="M56 146 C76 122, 88 132, 104 112 S132 78, 152 94 S174 117, 190 82" fill="none" stroke="#b85c7b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M178 82 L191 81 L189 94" fill="none" stroke="#b85c7b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="120" y="132" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="62" font-weight="500" letter-spacing="4" fill="#7b2f4b">HFJ</text>
+  <path d="M78 158 H162" stroke="#e8bccf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M92 174 C108 166, 132 166, 148 174" fill="none" stroke="#b85c7b" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+</svg>

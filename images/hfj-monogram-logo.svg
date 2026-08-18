@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="title description">
+  <title id="title">Her Finance Journey logo</title>
+  <desc id="description">An interwoven HFJ monogram with the Her Finance journey wordmark.</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..800&amp;family=Nunito:wght@400..800&amp;display=swap');
+
+    .monogram {
+      font-family: 'Bodoni Moda', 'Bodoni 72', Didot, serif;
+      font-weight: 500;
+    }
+
+    .letter-h {
+      font-size: 205px;
+    }
+
+    .letter-f {
+      font-size: 252px;
+    }
+
+    .letter-j {
+      font-size: 302px;
+    }
+
+    .wordmark {
+      font-family: 'Nunito', Arial, sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      letter-spacing: 1.8px;
+    }
+  </style>
+  <g aria-hidden="true">
+    <text class="monogram letter-h" x="190" y="252" fill="#FFFAF2">H</text>
+    <text class="monogram letter-f" x="286" y="208" fill="#4A1117">F</text>
+    <text class="monogram letter-j" x="223" y="290" fill="#4A1117">J</text>
+  </g>
+  <text class="wordmark" x="360" y="343" fill="#1B1B1B" text-anchor="middle">Her Finance journey</text>
+</svg>

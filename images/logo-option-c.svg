@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Her Finance Journey logo option C</title>
+  <desc id="desc">A minimal abstract emblem using curved paths to suggest progress, support, confidence, and community.</desc>
+  <defs>
+    <linearGradient id="paperC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdfa"/>
+      <stop offset="0.7" stop-color="#fff5f1"/>
+      <stop offset="1" stop-color="#efe0d8"/>
+    </linearGradient>
+    <linearGradient id="pathC" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2d2729"/>
+      <stop offset="0.48" stop-color="#9a6963"/>
+      <stop offset="1" stop-color="#e2c7bb"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="1152" height="372" rx="42" fill="url(#paperC)"/>
+  <g transform="translate(146 58)">
+    <path d="M72 238 C92 142, 156 65, 258 36"
+          fill="none" stroke="#2d2729" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M108 258 C137 170, 201 106, 286 90"
+          fill="none" stroke="#9d6b64" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M148 275 C185 204, 239 158, 310 150"
+          fill="none" stroke="#d6b8ad" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M254 36 C275 39, 292 50, 304 67"
+          fill="none" stroke="#2d2729" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M282 90 C299 92, 314 101, 325 115"
+          fill="none" stroke="#9d6b64" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M306 150 C321 153, 334 161, 343 172"
+          fill="none" stroke="#d6b8ad" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M64 238 C118 296, 250 311, 348 229"
+          fill="none" stroke="#ead8d0" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="72" cy="238" r="4.8" fill="#2d2729"/>
+    <circle cx="108" cy="258" r="4.4" fill="#9d6b64"/>
+    <circle cx="148" cy="275" r="4.4" fill="#d6b8ad"/>
+  </g>
+  <text x="520" y="162"
+        font-family="Didot, Bodoni 72, Georgia, serif"
+        font-size="82" font-weight="400" letter-spacing="-0.8" fill="#2d2729">Her Finance</text>
+  <text x="520" y="246"
+        font-family="Didot, Bodoni 72, Georgia, serif"
+        font-size="82" font-weight="400" letter-spacing="-0.8" fill="#2d2729">Journey</text>
+  <path d="M524 280 C610 262, 707 274, 794 253 C856 239, 905 210, 960 190"
+        fill="none" stroke="url(#pathC)" stroke-width="2.2" stroke-linecap="round" opacity="0.72"/>
+  <text x="522" y="322"
+        font-family="Optima, Avenir Next, Helvetica, sans-serif"
+        font-size="15" font-weight="600" letter-spacing="5.2" fill="#8f7670">PROGRESS  /  SUPPORT  /  CONFIDENCE</text>
+</svg>

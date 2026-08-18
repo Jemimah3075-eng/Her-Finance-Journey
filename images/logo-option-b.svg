@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Her Finance Journey logo option B</title>
+  <desc id="desc">A chic thin-line HFJ monogram with a single extended line suggesting growth and movement.</desc>
+  <defs>
+    <linearGradient id="paperB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFAF2"/>
+      <stop offset="1" stop-color="#FFFAF2"/>
+    </linearGradient>
+    <linearGradient id="roseLineB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A1117"/>
+      <stop offset="0.55" stop-color="#985B5D"/>
+      <stop offset="1" stop-color="#985B5D"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="1152" height="372" rx="42" fill="url(#paperB)"/>
+  <g transform="translate(142 58)">
+    <circle cx="150" cy="150" r="132" fill="#FFFAF2" stroke="#985B5D" stroke-width="1.8"/>
+    <circle cx="150" cy="150" r="104" fill="none" stroke="#985B5D" stroke-width="1.4" stroke-dasharray="2 11"/>
+    <path d="M72 218 V82 M72 150 H132 M132 82 V218"
+          fill="none" stroke="#1B1B1B" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M160 218 V82 H226 M160 150 H213"
+          fill="none" stroke="#1B1B1B" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M244 82 V174 C244 205, 226 224, 197 224"
+          fill="none" stroke="#1B1B1B" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 236 C144 198, 178 205, 218 164 C250 132, 263 91, 294 62"
+          fill="none" stroke="url(#roseLineB)" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M281 61 C288 59, 294 59, 301 61 C298 67, 296 73, 295 80"
+          fill="none" stroke="url(#roseLineB)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M41 264 C92 292, 185 300, 260 264" fill="none" stroke="#985B5D" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="824" y="190" text-anchor="middle"
+        font-family="Didot, Bodoni 72, Georgia, serif"
+        font-size="76" font-weight="400" letter-spacing="-0.7" fill="#1B1B1B">Her Finance Journey</text>
+  <path d="M566 227 H1082" stroke="#985B5D" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="824" y="272" text-anchor="middle"
+        font-family="Optima, Avenir Next, Helvetica, sans-serif"
+        font-size="15" font-weight="600" letter-spacing="4.6" fill="#4A1117">COMMUNITY  /  CONFIDENCE  /  CAREER GROWTH</text>
+</svg>
